@@ -3,7 +3,7 @@
   "name": "Fix para comentarios de MARCA",
   "version": "1.0",
   "description": "Una simple extensión que arregla los habituales problemas de carga de comentarios en MARCA.com.",
-  "permissions": ["declarativeNetRequest"],
+  "permissions": ["declarativeNetRequest", "storage"],
   "host_permissions": ["*://*.marca.com/*"],
   "declarative_net_request": {
     "rule_resources": [
@@ -13,6 +13,10 @@
         "path": "rules.json"
       }
     ]
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Fix Comentarios Marca"
   },
   "icons": {
     "16": "assets/icon16.png",

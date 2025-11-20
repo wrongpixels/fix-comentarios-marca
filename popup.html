@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+          Helvetica, Arial, sans-serif;
+        width: 220px;
+        padding: 8px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f9f9f9;
+      }
+
+      h2 {
+        margin: 0 0 8px 0;
+        font-size: 16px;
+        color: #333;
+        text-align: center;
+      }
+
+      .switch-container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 8px;
+      }
+
+      .switch {
+        position: relative;
+        display: inline-block;
+        width: 40px;
+        height: 22px;
+      }
+
+      .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+
+      .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        transition: 0.4s;
+        border-radius: 22px;
+      }
+
+      .slider:before {
+        position: absolute;
+        content: '';
+        height: 16px;
+        width: 16px;
+        left: 3px;
+        bottom: 3px;
+        background-color: white;
+        transition: 0.4s;
+        border-radius: 50%;
+      }
+
+      input:checked + .slider {
+        background-color: #01a373;
+      }
+
+      input:checked + .slider:before {
+        transform: translateX(18px);
+      }
+
+      #status-label {
+        font-size: 14px;
+        font-weight: 600;
+        color: #555;
+        min-width: 50px;
+      }
+
+      .separator {
+        width: 100%;
+        height: 1px;
+        background-color: #e0e0e0;
+      }
+
+      #gh-footer {
+        padding: 5px;
+        align-items: center;
+        font-size: 12px;
+        display: flex;
+        gap: 2px;
+        color: #6b6b6b;
+        text-decoration: none;
+      }
+
+      #gh-footer-link {
+        border-radius: 4px;
+        font-size: 12px;
+        font-weight: bold;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Fix para comentarios de MARCA.com</h2>
+
+    <div class="switch-container">
+      <label class="switch">
+        <input type="checkbox" id="toggle-switch" checked />
+        <span class="slider"></span>
+      </label>
+      <span id="status-label">Activo</span>
+    </div>
+
+    <div class="separator"></div>
+
+    <span id="gh-footer">
+      <img
+        src="assets/github-mark.svg"
+        alt="GitHub logo"
+        width="18"
+        style="padding-right: 5px"
+      />
+      by
+      <span id="gh-footer-link">
+        @<a
+          href="https://github.com/wrongpixels/fix-comentarios-marca"
+          target="_blank"
+          >wrongpixels</a
+        >
+      </span>
+    </span>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
