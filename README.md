@@ -3,7 +3,7 @@
 <img height="600" alt="image" src="https://github.com/user-attachments/assets/3e3ad162-fd39-4359-9b5e-0b7db7a1f0fb" />
 </p>
 
-### Arregla el bug de MARCA.com que impide cargar los comentarios.
+## Una extensión para Chrome/Brave/Edge que arregla el bug de MARCA.com que impide cargar los comentarios.
 
 [![GitHub Release](https://img.shields.io/github/v/release/wrongpixels/fix-comentarios-marca)](https://github.com/wrongpixels/fix-comentarios-marca/releases/latest)
 ---
