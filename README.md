@@ -1,21 +1,23 @@
+<img alt="image" src="./assets/icon-full.png" />
+
 # Fix para comentarios de MARCA 💬🔧
+
+[![GitHub Release](https://img.shields.io/github/v/release/wrongpixels/fix-comentarios-marca)](https://github.com/wrongpixels/fix-comentarios-marca/releases/latest)
+
 <p align="center">
 <img height="600" alt="image" src="https://github.com/user-attachments/assets/3e3ad162-fd39-4359-9b5e-0b7db7a1f0fb" />
 </p>
 
 #### Una extensión para Chrome/Brave/Edge que arregla el bug de MARCA.com que impide cargar los comentarios.
 
-[![GitHub Release](https://img.shields.io/github/v/release/wrongpixels/fix-comentarios-marca)](https://github.com/wrongpixels/fix-comentarios-marca/releases/latest)
 ---
 
 ### El Problema
 Seguro que te ha pasado: Entras a una noticia, ves que tiene 300 comentarios, vas a abrir el desplegable para ver la "guerra" y...
 
-<img alt="image" src="./assets/icon128.png" />
+**0 comentarios**.
 
-**0 comentarios**. Ah, y el desplegable se abre en blanco. Y no carga absolutamente nada.
-
-Da igual cuánto recargues la página, se queda roto.
+Ah, y el desplegable se abre en blanco. Y no carga absolutamente nada.
 
 ### ✅ ¿Qué hace esta extensión?
 
