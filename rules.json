@@ -13,7 +13,7 @@
       ]
     },
     "condition": {
-      "urlFilter": "marca.com",
+      "regexFilter": "^https?://([^/]*\\.)?marca\\.com(?!.*/[^/?#]*directo\\.html(?:[?#]|$)).*",
       "resourceTypes": [
         "main_frame",
         "sub_frame",
