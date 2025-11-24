@@ -13,7 +13,8 @@
       ]
     },
     "condition": {
-      "regexFilter": "^https?://([^/]*\\.)?marca\\.com(?!.*/[^/?#]*directo\\.html(?:[?#]|$)).*",
+      "urlFilter": "||marca.com",
+      "excludedRegexFilter": "^.*directo\\.html([?#].*)?$",
       "resourceTypes": [
         "main_frame",
         "sub_frame",
